@@ -1,0 +1,17 @@
+
+create a sumAll function
+set two parameters: num1, num2
+
+if num1 is NOT a number OR num2 is NOT a number THEN 
+    RETURN "Error, is not a number"
+
+let getMin = num1 < num2 ? num1 : num2
+let getMax = num1 > num2 ? num1 : num2
+
+let totalSum = 0
+
+Loop from getMin to getMax
+    totalSum += getMin
+
+RETURN totalSum
+
