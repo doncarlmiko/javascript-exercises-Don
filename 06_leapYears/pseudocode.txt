@@ -1,0 +1,10 @@
+create a leapYears function
+    set a leapYears parameter 
+
+    if leapYears % 4 is equal to 0 
+    AND leapYears % 100 is not equal to 0
+    OR leapYears % 400 is equal to 0
+        RETURN true
+    ELSE 
+        RETURN false
+    
