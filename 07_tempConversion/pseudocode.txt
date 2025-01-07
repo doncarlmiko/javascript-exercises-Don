@@ -1,0 +1,24 @@
+Write two functions that convert temperatures from Fahrenheit to Celsius, and vice versa
+
+create a convertToCelsius function
+    set a fahrenheitValue parameter
+
+    create an integer variable convertToCelsius
+    and put (fahrenheitValue - 32)/1.8
+
+    create an integer variable roundConvertToCelsius 
+    and put Math.round(convertToCelsius*10)/10
+
+    RETURN roundConvertToCelsius
+
+create a convertToFahrenheit function
+    set a celciusValue parameter
+
+    create an integer variable convertToFahrenheit
+    and put (celciusValue * 1.8) + 32
+
+    create an integer variable roundConvertToFahrenheit 
+    and put Math.round(convertToFahrenheit*10)/10
+
+    RETURN convertToFahrenheit
+
