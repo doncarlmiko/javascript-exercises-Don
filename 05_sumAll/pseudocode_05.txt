@@ -9,9 +9,10 @@ let getMin = num1 < num2 ? num1 : num2
 let getMax = num1 > num2 ? num1 : num2
 
 let totalSum = 0
+let i
 
 Loop from getMin to getMax
-    totalSum += getMin
+    totalSum += i
 
 RETURN totalSum
 
