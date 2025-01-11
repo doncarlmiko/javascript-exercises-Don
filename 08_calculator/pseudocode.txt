@@ -7,10 +7,26 @@ create a an add() function
     return sum
 
 create a a subtract() function
-     set two parameters: Minuend, subtrahend
-     create a difference number variable
+    set two parameters: Minuend, subtrahend
+    create a difference number variable
 
     sum = Minuend - subtrahend
 
     return difference
 
+create a sum() function
+    set a parameter: addendArray
+
+    create a number variable named addendCounter
+    create a number variable named sumArray
+
+    sumArray = 0
+    addendCounter = 0
+
+    if addendArray.length is equal to 0
+        THEN return addendArray.length
+
+    Loop from addendCounter to addendArray length
+        sumArray += addendArray[addendCounter]
+
+    return sumArray

@@ -8,8 +8,21 @@ const subtract = function(Minuend, subtrahend) {
   return difference;
 };
 
-const sum = function() {
-	
+const sum = function(addendArray) {
+  //const addendArrayNumbers = new Array(addendArray);
+  let addendCounter = 0;
+  let sumArray = 0;
+
+  if(addendArray.length === 0){
+    return addendArray.length;
+  }
+
+  for(addendCounter = 0; addendCounter < addendArray.length; addendCounter++){
+    sumArray += addendArray[addendCounter];
+  }
+
+  return sumArray;
+
 };
 
 const multiply = function() {
