@@ -1,0 +1,16 @@
+create a an add() function
+    set two parameters: numAddend1, numAddend2
+    create a sum number variable
+
+    sum = numAddend1 + numAddend2
+
+    return sum
+
+create a a subtract() function
+     set two parameters: Minuend, subtrahend
+     create a difference number variable
+
+    sum = Minuend - subtrahend
+
+    return difference
+

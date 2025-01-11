@@ -1,9 +1,11 @@
-const add = function() {
-	
+const add = function(numAddend1,numAddend2) {
+  const sum = numAddend1 + numAddend2;
+  return sum;
 };
 
-const subtract = function() {
-	
+const subtract = function(Minuend, subtrahend) {
+	const difference = Minuend - subtrahend;
+  return difference;
 };
 
 const sum = function() {
