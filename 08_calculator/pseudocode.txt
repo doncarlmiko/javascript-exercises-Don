@@ -30,3 +30,35 @@ create a sum() function
         sumArray += addendArray[addendCounter]
 
     return sumArray
+
+create a multiply() function
+    set a parameter: factorArray
+
+    create a number variable named factorCounter
+    create a number variable named productArray
+
+    productArray = 1
+    factorCounter = 0
+
+    if factorArray.length is equal to 0
+        THEN return factorArray.length
+
+    Loop from factorCounter to factorArray length
+        productArray *= factorArray[factorCounter]
+
+    return productArray
+
+
+create a power() function
+    set a parameter: baseNumber, raiseToPower
+
+    create a number variable named powerProduct
+    create a number variable named powerCounter
+    
+    powerProduct = 1
+    powerCounter = 1
+
+    Loop from powerCounter to raiseToPower
+       powerProduct *= baseNumber
+
+    return powerProduct

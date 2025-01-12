@@ -9,7 +9,7 @@ const subtract = function(Minuend, subtrahend) {
 };
 
 const sum = function(addendArray) {
-  //const addendArrayNumbers = new Array(addendArray);
+
   let addendCounter = 0;
   let sumArray = 0;
 
@@ -25,12 +25,31 @@ const sum = function(addendArray) {
 
 };
 
-const multiply = function() {
+const multiply = function(factorArray) {
+  
+  let factorCounter = 0;
+  let productArray = 1;
 
+  if(factorArray.length === 0){
+    return factorArray.length
+  }
+
+  for(factorCounter = 0; factorCounter < factorArray.length; factorCounter++){
+    productArray *= factorArray[factorCounter];
+  }
+
+  return productArray;
 };
 
-const power = function() {
-	
+const power = function(baseNumber, raiseToPower) {
+	let powerProduct = 1;
+  let powerCounter;
+
+  for(powerCounter = 1; powerCounter <=raiseToPower; powerCounter++){
+    powerProduct *= baseNumber;
+  }
+
+  return powerProduct;
 };
 
 const factorial = function() {
