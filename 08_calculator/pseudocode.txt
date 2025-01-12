@@ -1,4 +1,4 @@
-create a an add() function
+create an add() function
     set two parameters: numAddend1, numAddend2
     create a sum number variable
 
@@ -6,7 +6,7 @@ create a an add() function
 
     return sum
 
-create a a subtract() function
+create a subtract() function
     set two parameters: Minuend, subtrahend
     create a difference number variable
 
@@ -62,3 +62,20 @@ create a power() function
        powerProduct *= baseNumber
 
     return powerProduct
+
+create a factorial() function
+    set a parameter: factorialNumber
+
+    create a number variable named factorialProduct
+    create a number variable named factorialCounter
+
+    factorialProduct = factorialNumber
+    factorialCounter = 1
+
+    if factorialNumber is equal to 0
+    THEN return 1
+
+    Loop from factorialCounter to factorialNumber
+        factorialProduct *= factorialCounter;
+
+    return factorialProduct

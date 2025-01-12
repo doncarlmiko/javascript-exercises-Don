@@ -52,8 +52,18 @@ const power = function(baseNumber, raiseToPower) {
   return powerProduct;
 };
 
-const factorial = function() {
-	
+const factorial = function(factorialNumber) {
+  let factorialProduct = factorialNumber;
+  let factorialCounter;
+
+  if(factorialNumber === 0){
+    return 1;
+  }
+  
+  for(factorialCounter=1; factorialCounter < factorialNumber; factorialCounter++){
+    factorialProduct *= factorialCounter;
+  }
+  return factorialProduct;
 };
 
 // Do not edit below this line
