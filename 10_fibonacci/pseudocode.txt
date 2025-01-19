@@ -1,15 +1,25 @@
 create a fibonacci function
     create a fibonacciSequenceposition parameter
 
+    create an integer variable fibonacciSequenceNum to convert fibonacciSequenceposition from string to number
+
     create an array fibonacciSequenceArray[1,1]
     create an integer variable called fibonacciLoopCounter
     create an integer variable called fibonacciSum
     fibonacciLoopCounter = 0
 
-    Loop from fibonacciLoopCounter to fibonacciSequenceposition
+    Loop from fibonacciLoopCounter to fibonacciSequenceNum
         
         fibonacciSum = fibonacciSequenceArray[fibonacciSequenceArray.length-1] + fibonacciSequenceArray[fibonacciLoopCounter-1] 
 
         push fibonacciSum to fibonacciSequenceArray
 
-    return fibonacciSequenceArray[fibonacciSequenceposition-1]
+    IF fibonacciSequenceNum is equal to 0
+    THEN 
+    return 0
+
+    ELSE IF fibonacciSequenceNum is less than 0
+    return "OOPS"
+    
+    ELSE
+    return fibonacciSequenceArray[fibonacciSequenceNum-1];
