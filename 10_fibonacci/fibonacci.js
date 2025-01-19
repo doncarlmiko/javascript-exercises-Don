@@ -7,11 +7,11 @@ const fibonacci = function(fibonacciSequenceposition) {
 
     for(fibonacciLoopCounter = 1; fibonacciLoopCounter <fibonacciSequenceNum; fibonacciLoopCounter++){
 
-        if(fibonacciLoopCounter>=1){
+        //if(fibonacciLoopCounter >=1){
             fibonacciSum = fibonacciSequenceArray[fibonacciSequenceArray.length-1] + fibonacciSequenceArray[fibonacciLoopCounter-1];
 
             fibonacciSequenceArray.push(fibonacciSum);
-        }
+        //}
         
     }
     
