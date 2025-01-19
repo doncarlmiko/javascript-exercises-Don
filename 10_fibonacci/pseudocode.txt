@@ -1,0 +1,15 @@
+create a fibonacci function
+    create a fibonacciSequenceposition parameter
+
+    create an array fibonacciSequenceArray[1,1]
+    create an integer variable called fibonacciLoopCounter
+    create an integer variable called fibonacciSum
+    fibonacciLoopCounter = 0
+
+    Loop from fibonacciLoopCounter to fibonacciSequenceposition
+        
+        fibonacciSum = fibonacciSequenceArray[fibonacciSequenceArray.length-1] + fibonacciSequenceArray[fibonacciLoopCounter-1] 
+
+        push fibonacciSum to fibonacciSequenceArray
+
+    return fibonacciSequenceArray[fibonacciSequenceposition-1]
