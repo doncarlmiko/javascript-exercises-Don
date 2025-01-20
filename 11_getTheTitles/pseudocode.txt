@@ -1,0 +1,11 @@
+create a getTheTitles function
+    create a books parameter
+
+    create a string variable bookTitlesCounter
+
+    create an array named bookTitleArray[]
+
+    Loop from bookTitlesCounter to books
+        push the books.title to bookTitleArray
+
+    return bookTitleArray
