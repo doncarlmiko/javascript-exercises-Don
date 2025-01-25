@@ -12,7 +12,6 @@ const fibonacci = function(fibonacciSequenceposition) {
 
             fibonacciSequenceArray.push(fibonacciSum);
         //}
-        
     }
     
     if(fibonacciSequenceNum === 0){

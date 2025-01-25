@@ -1,0 +1,13 @@
+create a getAge function
+    create two parameters: birthyear, death 
+
+    if death is null
+    Then get the current year and put to death
+
+    return death - birthyear
+
+
+create a findTheOldest function
+    create a people parameter
+
+    
